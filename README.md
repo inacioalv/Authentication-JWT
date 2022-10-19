@@ -27,8 +27,13 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 
 ## 💻 Projeto
+Nesse projeto iremos implementar uma aplicação API RESTful para autenticação e geração de um token JWT 
+para completar as requisições de forma segura. para esse projeto adicionamos as dependências do Spring Security.
+Apos a configuração de autenticar com email e senha e devolver um token para ser usado nas próximas requisições,
+usamos o token que contém informações para permitir o acesso do usuário aos recursos da aplicação, para isso precissamos de
+fazer é verificação se uma requisição que está tentando acessar algum recurso possui um token e se esse token é válido,
 
-Serviços web RESTful desenvolvendo tratamento de exceção, 
+
 documentação (Swagger),implementando o Eureka Naming Server . 
 
 
